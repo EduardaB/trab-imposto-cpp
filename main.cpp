@@ -52,5 +52,22 @@ int main()
     }
     d = b-a;
 
+    //Pt. 4: Relatorio finalizado
+    cout << endl << "RELATÓRIO DE IMPOSTO DE RENDA" << endl;
+
+    cout << endl << "CONSOLIDADO DE RENDA:" << endl;
+    cout << "Imposto sobre salário: " << isa << endl;
+    cout << "Imposto sobre serviços: " << ise << endl;
+    cout << "Imposto sobre ganho de capital: " << ic << endl;
+
+    cout << endl << "DEDUÇÕES:" << endl;
+    cout << "Máximo dedutível: " << md << endl;
+    cout << "Gastos dedutíveis: " << gd << endl;
+
+    cout << endl << "RESUMO:" << endl;
+    cout << "Imposto bruto total: " << b << endl;
+    cout << "Abatimento: " << a << endl;
+    cout << "Imposto devido: " << d << endl;
+
     return 0;
 }
