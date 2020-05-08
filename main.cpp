@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    double rs, rps, rgc, gm, ge, isa, ise, ic;
+    double rs, rps, rgc, gm, ge, isa, ise, ic, md, gd, b, a, d;
     cout << fixed << setprecision(2);
 
     //Pt. 1: Leitura dos calculos
@@ -36,6 +36,21 @@ int main()
     isa = isa*12;
     ise = rps*0.15;
     ic = rgc*0.20;
+
+    //Pt. 3: Deducoes
+    gd = ge+gm;
+    b = isa+ise+ic;
+    md = b*0.30;
+
+    if(b>gd)
+    {
+      a = gd;
+    }
+    else
+    {
+      a = md;
+    }
+    d = b-a;
 
     return 0;
 }
